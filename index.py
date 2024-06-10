@@ -6,5 +6,3 @@ feed = datas.content
 feed_content = BeautifulSoup(feed, "html.parser")
 feed_prett = feed_content.prettify()
 contents = feed_content.findAll("img")
-for img in contents:
-    print("img")
