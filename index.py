@@ -10,7 +10,7 @@ for image in images:
     data_src = image.get("data-src")
     if(data_src):
         image_array.append(data_src)
-        # print(image_array)
+        print(image_array)
 
 print(len(image_array))
 
